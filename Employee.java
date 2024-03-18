@@ -1,4 +1,4 @@
-public class Employee{
+public class Employee extends Devops_engineer{
     String name;
     int salary ;
     int ID ;
@@ -15,5 +15,6 @@ public class Employee{
         e.salary=30000;
         e.ID=123;
         e.Employeedetails();
+        e.add_Bonus();
        }
 }

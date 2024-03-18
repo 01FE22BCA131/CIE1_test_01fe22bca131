@@ -1,7 +1,7 @@
 public class Employee{
-    String name="joy";
-    int salary = 30000;
-    int ID = 123;
+    String name;
+    int salary ;
+    int ID ;
 
     public void Employeedetails(){
         System.out.println("Name of employee = " +name);
@@ -11,6 +11,9 @@ public class Employee{
 
        public static void main(String[] args){
         Employee e = new Employee();
+        e.name="joy";
+        e.salary=30000;
+        e.ID=123;
         e.Employeedetails();
        }
 }
